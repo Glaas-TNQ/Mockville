@@ -13,3 +13,30 @@ it should be pretty easy to understand how to replace them with your language of
 By the way the script is now fully working, you can just copy paste it into your IDE and run it in order to create 5 xlsx datasets in your directory
 Feel free to modify, adapt and improve on this version of the program, this was made for studying purpose and I'm more than glad if it proves useful for you
 Just remember that credit and feedback is always highly appreciated
+
+
+## Usage
+
+Install the `setuptools` package:
+```
+pip install setuptools
+```
+
+in the project directory run:
+
+```
+python -m build
+```
+
+this will generate a `dist` folder with a .whl and .gz inside
+
+install the package in you machine using
+```
+pip install dist/house_gen-0.0.1-py3-none-any.whl
+```
+
+launch it using:
+
+```
+house_gen
+```
