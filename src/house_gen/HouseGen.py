@@ -344,7 +344,7 @@ def main():
         housesBellaria.append(house4)
 
 
-    # here I'm able to decide how many records I want for every zone, in this case the script will generate 10k houses
+    # here I'm able to decide how many records I want for every zone, in this case the script will generate 100 houses
     # per zone. Ideally (coming in future updates) I could assign a different variable for every function in order not to
     # generate dataset of identical length
 
